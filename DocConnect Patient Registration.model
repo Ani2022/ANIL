@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE focus-model [
+]>
+<!----><focus-model auxDataFilesFolder="" classifyAttributesEnabled="false" inputOutput="false" manual="true">
+<model-identification modelTag="">
+<model-identification-field name="Application Name" partOfTag="true" value="Aptech Computer Education"/>
+<model-identification-field name="Application code version #" partOfTag="true" value=""/>
+<model-identification-field name="Application Function" partOfTag="true" value="Aptech Computer Education_Career_Guidance"/>
+<model-identification-field name="Updated Reason" partOfTag="false" value=""/>
+<model-identification-field name="Created By" partOfTag="false" value="anilkumar"/>
+<model-identification-field name="Created Date and Time" partOfTag="false" value="29 Jan 2020 11:20:13"/>
+<model-identification-field name="Updated By" partOfTag="false" value="anilkumar"/>
+<model-identification-field name="Updated Date and Time" partOfTag="false" value="29 Jan 2020 11:20:13"/>
+<model-identification-field name="Application Sub Function" partOfTag="true" value=""/>
+<model-identification-field name="Test Stage" partOfTag="false" value=""/>
+<model-identification-field name="Criticality" partOfTag="false" value=""/>
+<model-identification-field name="Project" partOfTag="false" value=""/>
+<model-identification-field name="Epic" partOfTag="false" value=""/>
+<model-identification-field name="Feature" partOfTag="false" value=""/>
+<model-identification-field name="User Story" partOfTag="false" value=""/>
+</model-identification>
+<attribute attr_class="NONE" dependencies="false" description="Field can accept only alphabetic values of maximum 30 Characters." group="" iotype="NEITHER" name="AN_Name " revision="" type="STRING">
+<value name="Valid" weight="1">
+<requirement ID="DocConnect Patient Registration.1"/>
+</value>
+<value name="Invalid" weight="1">
+<requirement ID="DocConnect Patient Registration.1"/>
+</value>
+<requirement ID="DocConnect Patient Registration.1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Field can accept Mix of Alphanumeric and special characters in a valid Email Format" group="" iotype="NEITHER" name="AN_Email" revision="" type="STRING">
+<value name="Valid" weight="1">
+<requirement ID="DocConnect Patient Registration.1"/>
+</value>
+<value name="Invalid" weight="1">
+<requirement ID="DocConnect Patient Registration.1"/>
+</value>
+<requirement ID="DocConnect Patient Registration.1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Field can accept alphanumeric &amp; numbers values of maximum 16 digits" group="" iotype="NEITHER" name="AN_Password" revision="" type="STRING">
+<value name="Valid" weight="1">
+<requirement ID="DocConnect Patient Registration.1"/>
+</value>
+<value name="Invalid" weight="1">
+<requirement ID="DocConnect Patient Registration.1"/>
+</value>
+<requirement ID="DocConnect Patient Registration.1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Field can accept alphanumeric &amp; numbers values of maximum 16 digits.It should have same values as password" group="" iotype="NEITHER" name="AN_Confirm Password" revision="" type="STRING">
+<value name="Valid" weight="1">
+<requirement ID="DocConnect Patient Registration.1"/>
+</value>
+<value name="Invalid" weight="1">
+<requirement ID="DocConnect Patient Registration.1"/>
+</value>
+<requirement ID="DocConnect Patient Registration.1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Field can accept only numeric values of 10 Digit. Valid Mobile Number." group="" iotype="NEITHER" name="AN_Mobile Number" revision="" type="STRING">
+<value name="Valid" weight="1">
+<requirement ID="DocConnect Patient Registration.1"/>
+</value>
+<value name="Invalid" weight="1">
+<requirement ID="DocConnect Patient Registration.1"/>
+</value>
+<requirement ID="DocConnect Patient Registration.1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="Field can accept only numeric values of 6 Digit" group="" iotype="NEITHER" name="AN_Pincode" revision="" type="STRING">
+<value name="Valid" weight="1">
+<requirement ID="DocConnect Patient Registration.1"/>
+</value>
+<value name="Invalid" weight="1">
+<requirement ID="DocConnect Patient Registration.1"/>
+</value>
+<requirement ID="DocConnect Patient Registration.1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="AN_City" revision="" type="STRING">
+<value name="Valid" weight="1">
+<requirement ID="DocConnect Patient Registration.1"/>
+</value>
+<value name="Invalid" weight="1">
+<requirement ID="DocConnect Patient Registration.1"/>
+</value>
+<requirement ID="DocConnect Patient Registration.1"/>
+</attribute>
+<attribute attr_class="NONE" dependencies="false" description="I agree to the DocConnect Terms &amp; Conditions " group="" iotype="NEITHER" name="AN_Checkbox" revision="" type="STRING">
+<value name="Check" weight="1">
+<requirement ID="DocConnect Patient Registration.1"/>
+</value>
+<value name="Uncheck" weight="1">
+<requirement ID="DocConnect Patient Registration.1"/>
+</value>
+<requirement ID="DocConnect Patient Registration.1"/>
+</attribute>
+<coverage-reqs-sets/>
+<neg-coverage-reqs-sets defaultCoverageRequirementsSet="SingleNegativeCoverageRequirementsSet" isAutoNegCoverageRequirements="true">
+<coverage-reqs-set description="" name="SingleNegativeCoverageRequirementsSet"/>
+</neg-coverage-reqs-sets>
+<focus-ctd-decoration decorationName="DefaultTestCaseNameDecoration" decorationType="testCaseName" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultFreeStyleDecoration" decorationType="freeStyle" isActiveDecoration="true"/>
+<focus-ctd-decoration decorationName="DefaultCucumberDecoration" decorationType="cucumberDecoration" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultStructuredDecoration" decorationType="structuredDecoration" isActiveDecoration="false"/>
+<requirements-tracking-combination>
+<attr-value attribute="AN_Confirm Password" value="Invalid"/>
+<requirement ID="DocConnect Patient Registration.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="AN_Confirm Password" value="Valid"/>
+<requirement ID="DocConnect Patient Registration.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="AN_Mobile Number" value="Invalid"/>
+<requirement ID="DocConnect Patient Registration.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="AN_Mobile Number" value="Valid"/>
+<requirement ID="DocConnect Patient Registration.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="AN_Pincode" value="Invalid"/>
+<requirement ID="DocConnect Patient Registration.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="AN_Pincode" value="Valid"/>
+<requirement ID="DocConnect Patient Registration.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="AN_Name " value="Invalid"/>
+<requirement ID="DocConnect Patient Registration.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="AN_Name " value="Valid"/>
+<requirement ID="DocConnect Patient Registration.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="AN_City" value="Invalid"/>
+<requirement ID="DocConnect Patient Registration.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="AN_City" value="Valid"/>
+<requirement ID="DocConnect Patient Registration.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="AN_Email" value="Invalid"/>
+<requirement ID="DocConnect Patient Registration.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="AN_Email" value="Valid"/>
+<requirement ID="DocConnect Patient Registration.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="AN_Password" value="Invalid"/>
+<requirement ID="DocConnect Patient Registration.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="AN_Password" value="Valid"/>
+<requirement ID="DocConnect Patient Registration.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="AN_Checkbox" value="Check"/>
+<requirement ID="DocConnect Patient Registration.1"/>
+</requirements-tracking-combination>
+<requirements-tracking-combination>
+<attr-value attribute="AN_Checkbox" value="Uncheck"/>
+<requirement ID="DocConnect Patient Registration.1"/>
+</requirements-tracking-combination>
+<requirements-collection>
+<requirement-node Ambiguity="" Complexity="Complex" DocumentName="DocConnect Patient Registration" Keywords="" Ranking="0" RequirementDescription="" RequirementId="1" Restrictions=""/>
+</requirements-collection>
+<focus-ctd-model-sync>
+<focus-ctd-model-sync-mult/>
+<focus-ctd-model-sync-na/>
+</focus-ctd-model-sync>
+</focus-model>
