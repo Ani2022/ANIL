@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE focus-model [
+]>
+<!----><focus-model auxDataFilesFolder="" classifyAttributesEnabled="false" inputOutput="false" manual="true">
+<model-identification modelTag="">
+<model-identification-field name="Application Name" partOfTag="true" value="Aptech Computer Education"/>
+<model-identification-field name="Application code version #" partOfTag="true" value=""/>
+<model-identification-field name="Application Function" partOfTag="true" value="Aptech Computer Education_Career_Guidance"/>
+<model-identification-field name="Updated Reason" partOfTag="false" value=""/>
+<model-identification-field name="Created By" partOfTag="false" value="anilkumar"/>
+<model-identification-field name="Created Date and Time" partOfTag="false" value="29 Jan 2020 09:29:14"/>
+<model-identification-field name="Updated By" partOfTag="false" value="anilkumar"/>
+<model-identification-field name="Updated Date and Time" partOfTag="false" value="29 Jan 2020 09:29:14"/>
+<model-identification-field name="Application Sub Function" partOfTag="true" value=""/>
+<model-identification-field name="Test Stage" partOfTag="false" value=""/>
+<model-identification-field name="Criticality" partOfTag="false" value=""/>
+<model-identification-field name="Project" partOfTag="false" value=""/>
+<model-identification-field name="Epic" partOfTag="false" value=""/>
+<model-identification-field name="Feature" partOfTag="false" value=""/>
+<model-identification-field name="User Story" partOfTag="false" value=""/>
+</model-identification>
+<coverage-reqs-sets/>
+<neg-coverage-reqs-sets defaultCoverageRequirementsSet="SingleNegativeCoverageRequirementsSet" isAutoNegCoverageRequirements="true">
+<coverage-reqs-set description="" name="SingleNegativeCoverageRequirementsSet"/>
+</neg-coverage-reqs-sets>
+<focus-ctd-decoration decorationName="DefaultTestCaseNameDecoration" decorationType="testCaseName" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultFreeStyleDecoration" decorationType="freeStyle" isActiveDecoration="true"/>
+<focus-ctd-decoration decorationName="DefaultCucumberDecoration" decorationType="cucumberDecoration" isActiveDecoration="false"/>
+<focus-ctd-decoration decorationName="DefaultStructuredDecoration" decorationType="structuredDecoration" isActiveDecoration="false"/>
+<focus-ctd-model-sync>
+<focus-ctd-model-sync-mult/>
+<focus-ctd-model-sync-na/>
+</focus-ctd-model-sync>
+</focus-model>
